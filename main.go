@@ -35,7 +35,6 @@ func main() {
 	// Sample input data from pcs broker
 	inputData := `??bodyŹ<?xml version="1.0" encoding="utf-8" standalone="yes"?><env:Envelope xmlns:env="" xmlns:com="" xmlns:xsi="" xsi:schemaLocation=""><Header></env:Envelope>?header??version?typ?exp??enc?"?howcanwenottalkaboutfamilywhenthefamilyisallwegot blablabla    yougotthelemoout?hotstyleeveryshoeeverycolor.exe?date?20241106?time?08453759?appl_orig_data??grp_id?iwillneverfallinloveagainuntillifoundyou,ifoundyouuuuuuuuuuuu ?offset? yapping?flags?true?orig_length?180057463621 38?props?`
 	
-
 	xmlData, err := extractXML(inputData)
 	if err != nil {
 		fmt.Println("Error extracting XML:", err)
